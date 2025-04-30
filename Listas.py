@@ -3,9 +3,9 @@ def main():
     
     numeros [2]= 6
     
-    numeros.append(10)    
+    numeros.append(10)    #Add o elemento 10 no final da lista (.APPEND)
     
-    for num in numeros: 
+    for num in numeros:     #Printar os numeros da lista com um loop for do primeiro ao ultimo elemento
         print(num)  
     print(len(numeros))
     
