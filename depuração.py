@@ -45,14 +45,11 @@ versao 2
    
 
 #created
-nome    = input("Nome...: ").capitalize()
-celular = input("Celular: ")
-email   = input("E-mail.: ").lower()
 
 agenda = {}
-agenda["nome"]    = nome
-agenda["celular"] = celular
-agenda["email"]   = email
+agenda["nome"]    = input("Nome...: ).capitalize()
+agenda["celular"] = input("Celular: )
+agenda["email"]   = input("Email..: ).lower()
 print(agenda)
 #Read
 print(f"Agenda:  {agenda["nome"]}") # Mostra o atributo "nome" q esta dentro da agenda
@@ -70,5 +67,12 @@ with open("dados.json", "w") as arquivo:
 print(f"Nome...: {lista[0]["nome"]}")  
 
 
-    
+#dados.json leitura de arquivo
+import json
+
+with open ("dados.json", "r") as arquivo:
+    lista_carregada = json.load(arquivo)
+
+print(lista_carregada)
+print(lista_carregada[0]["email"])    
 
