@@ -1,7 +1,9 @@
 #Dicionário                                    #O que é expressões regulares?
 import json 
 
-
+#montar um arquivo json, dicionario com as informações que vamos precisar guardar, diciplina do curso, atividades da diciplina, conteudo do curso 
+# dps fazer a parte de dicionarios de de turma e alunos. 
+#fazer login simples
 
 
 # Cadastro:  inserir, alterar, apagar, leitura.
